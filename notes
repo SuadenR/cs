@@ -1,0 +1,30 @@
+append 2.37 ms
+append1 80.8 μs
+append2 11.6 μs
+append3 31.8 μs
+append4 277 μs
+
+insert 53.3 μs
+insert1 13.4 μs
+insert2 130.7 μs
+insert3 7.7761 ms
+insert4 919.8828 ms
+
+getSized 56.3 μs
+getSized1 5.5 μs
+getSized2 34.2 μs
+getSized3 340.5 μs
+getSized4 5.5577 ms
+
+It looks like the first time it runs the function for each of the inputs, it takes longer than the second time. As the inputs get larger it takes the function longer to run due to the different methods that it is putting the data back, and the larger inputs causing a larger output. 
+
+
+EXTRA CREDIT
+
+The unshift method is the slowest method with larger input due to the method having to move all the values in the array by shifting their position every time it goes around. 
+
+The push method adds a value to the end of the array after running through the array, it does not need to move the previous values stored in the array to add the new value to the end, which is why it is faster than unshift.
+
+
+
+
