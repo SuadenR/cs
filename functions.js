@@ -9,7 +9,8 @@ function addToZero(array) {
     return false;
   }
 
- -- O(N)
+ -- O(N) Time
+ -- O(1) Space
 
 //Problem 2
 
@@ -24,7 +25,8 @@ function hasUniqueCharacters(string) {
     return true;
 }
 
--- O(1)
+-- O(1) Time
+-- O(N) Space
 
 //Problem 3
 
@@ -43,7 +45,9 @@ const test = (string) => {
     return result.size === 26
   }
 
--- O(1)
+-- O(1) Time
+-- O(N)
+
 
 //PROBLEM 4
 
@@ -58,4 +62,5 @@ function findLongestWord(array) {
   return longestWord;
 }
 
--- O(N)
+-- O(N) Time
+-- O(N^2)
