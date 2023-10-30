@@ -10,12 +10,6 @@ insert2 130.7 μs
 insert3 7.7761 ms
 insert4 919.8828 ms
 
-getSized 56.3 μs
-getSized1 5.5 μs
-getSized2 34.2 μs
-getSized3 340.5 μs
-getSized4 5.5577 ms
-
 It looks like the first time it runs the function for each of the inputs, it takes longer than the second time. As the inputs get larger it takes the function longer to run due to the different methods that it is putting the data back, and the larger inputs causing a larger output. 
 
 

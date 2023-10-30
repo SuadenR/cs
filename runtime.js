@@ -81,21 +81,6 @@ perf.start();
 doublerInsert(extraLargeArray);
 let resultsInsert4 = perf.stop();
 
-perf.start();
-getSizedArray(tinyArray);
-let resultsgetSized = perf.stop();
-perf.start();
-getSizedArray(smallArray);
-let resultsgetSized1 = perf.stop();
-perf.start();
-getSizedArray(mediumArray);
-let resultsgetSized2 = perf.stop();
-perf.start();
-getSizedArray(largeArray);
-let resultsgetSized3 = perf.stop();
-perf.start();
-getSizedArray(extraLargeArray);
-let resultsgetSized4 = perf.stop();
 
 
 
@@ -110,8 +95,4 @@ console.log("insert1", resultsInsert1.preciseWords);
 console.log("insert2", resultsInsert2.preciseWords);
 console.log("insert3", resultsInsert3.preciseWords);
 console.log("insert4", resultsInsert4.preciseWords);
-console.log("getSized", resultsgetSized.preciseWords);
-console.log("getSized1", resultsgetSized1.preciseWords);
-console.log("getSized2", resultsgetSized2.preciseWords);
-console.log("getSized3", resultsgetSized3.preciseWords);
-console.log("getSized4", resultsgetSized4.preciseWords);
+
